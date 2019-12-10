@@ -1,11 +1,11 @@
 -- -------------------------------------------------------------------------------------------------
--- Database Name: mosip_audit
--- Release Version 	: 0.10.4
--- Purpose    		: Database Alter scripts for the release for Audit DB.       
+-- Database Name: mosip_idrepo
+-- Release Version 	: 1.0.0
+-- Purpose    		: Database Alter scripts for the release for ID Repository DB.       
 -- Create By   		: Sadanandegowda
--- Created Date		: 06-Sep-2019
+-- Created Date		: 23-Sep-2019
 -- 
 -- Modified Date        Modified By         Comments / Remarks
 -- -------------------------------------------------------------------------------------------------
 
-\c mosip_audit sysadmin
+\c mosip_idrepo sysadmin

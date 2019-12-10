@@ -1,11 +1,11 @@
 -- -------------------------------------------------------------------------------------------------
--- Database Name: mosip_regprc
--- Release Version 	: 0.10.4
--- Purpose    		: Revoking Database Alter deployement done for release in Registration ProcessorDB.       
--- Create By   		: Sadanandegowda
--- Created Date		: 23-Sep-2019
+-- Database Name: mosip_iam
+-- Release Version 	: 1.0.1
+-- Purpose    		: Revoking Database Alter deployement done for release in Identity and Access Management DB.       
+-- Create By   		: Sadanandegowda DM
+-- Created Date		: 09-Dec-2019
 -- 
 -- Modified Date        Modified By         Comments / Remarks
 -- -------------------------------------------------------------------------------------------------
 
-\c mosip_regprc sysadmin
+\c mosip_iam sysadmin

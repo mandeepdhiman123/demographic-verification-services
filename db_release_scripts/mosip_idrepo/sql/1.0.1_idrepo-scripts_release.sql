@@ -1,11 +1,11 @@
 -- -------------------------------------------------------------------------------------------------
--- Database Name: mosip_iam
--- Release Version 	: 0.10.4
--- Purpose    		: Database Alter scripts for the release for Identity and Access Management DB.       
--- Create By   		: Sadanandegowda
--- Created Date		: 23-Sep-2019
+-- Database Name: mosip_idrepo
+-- Release Version 	: 1.0.1
+-- Purpose    		: Database Alter scripts for the release for ID Repository DB.       
+-- Create By   		: Sadanandegowda DM
+-- Created Date		: 09-Dec-2019
 -- 
 -- Modified Date        Modified By         Comments / Remarks
 -- -------------------------------------------------------------------------------------------------
 
-\c mosip_iam sysadmin
+\c mosip_idrepo sysadmin

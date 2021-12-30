@@ -1,15 +1,4 @@
--- -------------------------------------------------------------------------------------------------
--- Database Name: mosip_regprc
--- Table Name 	: regprc.registration
--- Purpose    	: Registration: Registration Processor table is to store registration requests that are being processed, Also maintains packet id details and status of the registration requests.
---           
--- Create By   	: Nasir Khan / Sadanandegowda
--- Created Date	: 15-Jul-2019
--- 
--- Modified Date        Modified By         Comments / Remarks
--- ------------------------------------------------------------------------------------------
 
--- ------------------------------------------------------------------------------------------
 
 -- object: regprc.registration | type: TABLE --
 -- DROP TABLE IF EXISTS regprc.registration CASCADE;
@@ -48,6 +37,7 @@ CREATE TABLE regprc.registration(
 );
 -- indexes section -------------------------------------------------
 create index idx_rgstrn_ltstrbcode_ltststscode on regprc.registration (latest_trn_dtimes, latest_trn_status_code);
+CREATE INDEX IF NOT EXISTS idx_reg_latest_trn_dtimes ON regprc.registration USING btree (latest_trn_dtimes);
 
 -- ddl-end --
 COMMENT ON TABLE regprc.registration IS 'Registration: Registration Processor table is to store registration requests that are being processed, Also maintains packet id details and status of the registration requests.';

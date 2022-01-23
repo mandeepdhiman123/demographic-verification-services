@@ -3,8 +3,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>io.mosip</groupId>
-		<artifactId>registration</artifactId>
+		<groupId>io.mosip.registrationprocessor</groupId>
+		<artifactId>registration-processor-core</artifactId>
 		<version>1.2.0-rc2-SNAPSHOT</version>
 	</parent>
 
@@ -331,23 +331,7 @@
 	</dependencyManagement>
 
 	<modules>
-		<module>registration-processor-core</module>
-		<module>registration-processor-rest-client</module>
-		<module>registration-processor-packet-manager</module>
-		<module>registration-processor-common-camel-bridge</module>
-		<module>registration-processor-bio-dedupe-service-impl</module>
-		<module>registration-processor-info-storage-service</module>
-		<module>registration-processor-registration-status-service-impl</module>
-        <!-- <module>registration-processor-quality-checker</module> -->
-		<module>registration-processor-message-sender-impl</module>
-		<module>registration-processor-notification-service</module>
-		<module>init</module>
-		<module>pre-processor</module>
-		<module>core-processor</module>
-		<module>post-processor</module>
-		<module>mosip-stage-executor</module>
-		<module>stage-groups</module>
-        <module>workflow-engine</module>
+		<module>registration-processor-demo-dedupe-stage</module>
   </modules>
 	<build>
 			<plugins>
